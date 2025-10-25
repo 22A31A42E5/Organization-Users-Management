@@ -145,19 +145,6 @@ The frontend will run on `http://localhost:3000`
 - request_type, status
 - created_at, updated_at
 
-## Features
-
-✅ Organization Management (CRUD)
-✅ User Management per Organization (CRUD)
-✅ Responsive UI with Tailwind CSS
-✅ Loading and Error States
-✅ RESTful API Architecture
-✅ SQL Database with Relationships
-✅ Status Management (Active/Blocked/Inactive)
-✅ Modal Forms for Create Operations
-✅ Breadcrumb Navigation
-✅ Tab-based Organization Details View
-
 ## Testing
 
 1. Start the backend server
@@ -178,19 +165,3 @@ The frontend will run on `http://localhost:3000`
 - Build: `npm run build`
 - Deploy the `dist` folder to Netlify, Vercel, or any static hosting
 - Update API_BASE_URL in src/api.js to production backend URL
-
-## ER Diagram
-
-See the included ER diagram PDF for the database schema visualization showing:
-- Organization entity with all attributes
-- User entity with role (Admin/Co-ordinator)
-- PendingRequest entity
-- Relationships between entities
-
-## License
-
-MIT License
-
-## Author
-
-BTech Student - Full Stack Development Project
